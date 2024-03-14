@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(5, 5, 97);
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 23px;
+}
+
+nav ul li a:hover {
+    color: rgb(176, 176, 235);
+    font-size: 1.04rem;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0px;
+    align-items: center;
+}
+
+.leftsection {
+    font-size: 2rem;
+    width: 70%;
+    margin-left: 150px;
+}
+
+.gray {
+    color: rgb(238, 173, 173);
+}
+
+.rightsection img {
+    width: 63%;
+    height: 100%;
+    padding-right: 150px;
+}
+
+.purple {
+    color: rgb(143, 136, 212);
+}
+
+
+#element {
+    color: rgb(143, 136, 212);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+/* .secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.secondSection .box {
+    background: white;
+    width: 78vw;
+    height: 2px;
+    display: flex;
+    margin: 56px 0;
+} */
+
+/* .secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 90px;
+} */
+
+.text-gray {
+    color: gray;
+}
+
+/* .vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 16px;
+}
+
+.vertical-desc {
+    position: relative;
+    color: rgb(241, 232, 232);
+    font-size: 12px;
+    width: 150px;
+    top: 86px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+} */
+
+.image {
+    width: 23px;
+    position: relative;
+    left: 2px;
+}
+
+footer {
+    background-color: #0e0e1a;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-between;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer ul li {
+    padding: 3px 0;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+.leftsection .btn {
+    padding: 12px;
+    color: white;
+    background: #1e2167;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftsection .buttons {
+    padding: 23px 0;
+}
+.skills h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 16px; 
+}
+.progress-bar{
+    background: #959595;
+    width:600px;
+    height: 10px;
+    border-radius: 5px;
+}
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+    width:0%;
+    background: rgb(230, 191, 86);
+}
+.progress-bar div span{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: rgb(16, 22, 102);
+    float:right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color:white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(243, 196, 65);
+}
+.html{
+    animation: html 1s linear forwards;
+}
+.css{
+    animation: html 1s linear forwards;
+}
+.Bootstrap{
+    animation: html 1s linear forwards;
+}
+.JavaScript{
+    animation: html 1s linear forwards;
+}
+.React{
+    animation: html 1s linear forwards;
+}
+
+@keyframes html {
+    100%{
+        width: 86%;
+    }
+    
+}
+@keyframes css {
+    100%{
+        width: 79%;
+    }
+    
+}
+@keyframes Bootstrap {
+    100%{
+        width: 76%;
+    }
+    
+}
+@keyframes JavaScript {
+    100%{
+        width: 71%;
+    }
+    
+}
+@keyframes React {
+    100%{
+        width: 65%;
+    }
+    
+}
